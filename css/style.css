@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #242426;
+    font-family: 'Libre Baskerville', serif;
+}
+
+/* Css para barra de navegación */
+nav{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+/* Css para Header */
+header{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.Titulo{
+    width: 500px;
+    height: 300px;
+    margin: 40px 0px 40px 40px;
+}
+.h2{
+    color: white;
+    font-size: 1.6rem;
+    text-align: left;
+    margin: 20px;
+}
+
+.imgPrin{
+    padding: 20px;
+    width: 700px;
+    height: 500px;
+}
+
+
+button{
+    height: 80px;
+    width: 200px;
+    margin: 20px; 
+    border-radius: 20px;
+    background-color: white;
+}
+
+.más{
+    background-color: #AEAEB2;
+}
+
+button:hover{
+    background-color: black;
+}
+
+button a{
+    color: black;
+    font-size: 1.2rem;
+}
+
+button a:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.name{
+    color: white;
+    font-size: 3rem;
+    position: absolute;
+    left: 10%;
+    margin-top: 40px;
+}
+
+/* Css para Carrusel */
+
+.carrusel{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 150px 60px 60px 60px;
+}
+
+.card{
+    width: 300px;
+    height: 250px;
+    background-color: white;
+    border-radius: 20px;   
+}
+
+.card:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+h3{
+    color: #AEAEB2;
+    font-size: 1.5rem;
+    margin: 20px 0px 10px 0px;
+    padding: 20px;
+}
+
+h4{
+    color: green;
+}
+
+.imgcarrusel{
+    margin: 20px 0px 0px 0px;
+}
+
+.anclaDetails{
+    color: black;
+}
+
+.anclaDetails:hover{
+    color: white;
+}
+
+.detail{
+    width: 120px;
+    height: 60px;
+    background-color: white;
+}
+
+.detail:hover{
+    transform: translateY(-20px);
+    background-color: black;
+    border: 2px solid white;
+}
+
+/* section descubre más */
+
+.descubre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 200px;
+}
+
+.siguenos{
+    color: white;
+    margin: 0px 0px 40px 0px;
+}
+
+.banner{
+    width: 1000px;
+    height: 400px;
+}
+
+.icono{
+    width: 40px;
+    height: 40px;
+    color: white;
+}
+
+/* Footer */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0px 60px;
+}
+
+.h2-footer{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.Politica{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.Colecciones{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.Canales{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+/* derechos */
+
+.derechos{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin: 80px 0px 0px 0px;
+}
+
+
+
+/* Css para hojas de Relojes */
+
+.card-relojes{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border-radius: 20px;   
+}
+
+.card-relojes:hover{
+    background-color: black;
+    cursor: pointer;
+}
+.carrusel-curren{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 150px 60px 60px 60px;
+}
+
+.carrusel-casio{
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        margin: 150px 60px 60px 60px;
+        padding: 20px;
+}
+
+.name-relojes{
+    color: white;
+    font-size: 3rem;
+    position: absolute;
+    left: 10%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+/* Css para Joyas */
+
+.card-joyas{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border-radius: 20px;   
+}
+
+.card-joyas:hover{
+    background-color: black;
+    cursor: pointer;
+}
+.carrusel-oro{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 150px 60px 60px 60px;
+}
+
+.carrusel-plata{
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        margin: 150px 60px 60px 60px;
+        padding: 20px;
+}
+
+.name-joyas{
+    color: white;
+    font-size: 3rem;
+    position: absolute;
+    left: 10%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+/* Css para Ofertas */
+
+.banner-ofertas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 200px;
+}
+
+.name-ofertas{
+    color: white;
+    font-size: 3rem;
+}
+
+/* Css para Regalar */
+
+main{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.h2-regalo{
+    color: white;
+    font-size: 1.6rem;
+    text-align: left;
+    margin: 20px;
+    padding: 20px;
+}
+
+.Personalizar{
+    height: 80px;
+    width: 250px;
+    margin: 20px; 
+    border-radius: 20px;
+    background-color: white;
+}
+
+.Personalizar:hover{
+    background-color: rgb(236, 95, 95);
+}
+
+.desc{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.h2-regalo2{
+    color: white;
+    font-size: 1.3rem;
+    text-align: left;
+    margin: 20px;
+    padding: 20px;
+}
+
+.Personalizar2{
+    height: 80px;
+    width: 250px;
+    margin: 20px; 
+    border-radius: 20px;
+    background-color: white;
+}
+
+.Personalizar2:hover{
+    background-color: rgb(97, 95, 236);
+}
+
+/* Botón de Whatsapp */
+
+.WhatsApp img{
+    width: 200px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
